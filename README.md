@@ -1,5 +1,3 @@
-# spo-db
-Database für SPONS
 # 🔐 Secure MariaDB Image with Swiss Timezone & Init DB
 
 Dieses Repository enthält ein gehärtetes Docker-Image basierend auf `mariadb:latest`, vorbereitet für produktive Einsätze. Es stellt sicher:
