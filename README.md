@@ -33,6 +33,7 @@ secure-mariadb/
 ├── docker-compose.yml          # Bereit zur lokalen Verwendung
 └── .github/workflows/
     └── docker-publish.yml      # GitHub Actions Workflow für Build & Push
+```
 ```bash
 ## 🐳 Docker Compose Vorlage
 version: '3.9'
