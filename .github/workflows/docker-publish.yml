@@ -41,6 +41,3 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/secure-mariadb:latest
-
-      - name: Output image digest
-        run: echo 'Image digest: ${{ steps.docker_build.outputs.digest }}'
