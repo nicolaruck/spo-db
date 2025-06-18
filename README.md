@@ -34,10 +34,8 @@ secure-mariadb/
 └── .github/workflows/
     └── docker-publish.yml      # GitHub Actions Workflow für Build & Push
 ```
-```bash
 ## 🐳 Docker Compose Vorlage
-version: '3.9'
-
+```bash
 services:
   mariadb:
     image: nicolaruckdeschel/secure-mariadb:latest
