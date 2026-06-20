@@ -17,7 +17,7 @@ Dieses Repository stellt ein sicheres, produktionsreifes Docker-Image auf Basis 
 Dieses Image basiert auf dem offiziellen `mariadb:latest`, ergänzt durch:
 
 - Zeitzonenfixierung auf `Europe/Zurich`
-- Sicheres `my.cnf` mit deaktivierten Schwachstellen
+- Sicheres `my.cnf` mit deaktivierten Schwachstellen.
 - Unterstützung für SQL-Initialisierung via `init.sql`
 - Nutzung von `MYSQL_ROOT_PASSWORD_FILE` via Docker Secrets
 
